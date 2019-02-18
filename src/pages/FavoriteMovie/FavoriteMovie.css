@@ -1,0 +1,9 @@
+.AddFavoriteMovies {
+    position: relative;
+    max-width: 600px;
+    padding: 15vh 0 0 10vh ;
+}
+
+#score {
+    max-width: 100px;
+}

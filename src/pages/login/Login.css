@@ -1,0 +1,46 @@
+.Login form {
+    position: relative;
+    max-width: 400px;
+    padding: 15vh 0 0 10vh ;
+    width: 50vh;
+    z-index: 1;
+}
+
+.Login {
+    color: white;
+    background-image: url(https://media.licdn.com/dms/image/C4D1BAQH5q0QiH8xzVg/company-background_10000/0?e=2159024400&v=beta&t=nVrTpGWA6z_PZSCVRbw6rmJsGkLbhwok409EXN42bUw);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+}
+
+.Login form a {
+    padding-left: 60px;
+}
+
+.Login form p {
+    margin-top: 10px;
+}
+
+.Slant {
+    padding: 1em 5em 1em 1em;
+    overflow: hidden;
+    color: #fff;
+}
+
+.Slant:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100%;
+    background: #282828;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    transform: skew(-10deg);
+    z-index: 0;
+}
